@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trivia game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="intro">
+      <h1>Trivia game</h1>
+      <button id="start">Start</button>
+    </div>
+
+    <div id="main">
+      <div>
+        <h1>Trivia game</h1>
+        <br />
+        <p id="time">Time remaining:</p>
+      </div>
+      <br />
+      <img
+        src="https://cdn.iflscience.com/images/6c2eb719-7d22-5193-890e-e623fa10a12c/default-1540201851-cover-image.jpg"
+        alt="globe"
+      />
+      <br />
+      <div class="questions">
+        <p>What is Earth's largest continent?</p>
+        <input type="radio" name="q1" value="true" />Asia
+        <input type="radio" name="q1" value="false" />Europe
+        <input type="radio" name="q1" value="false" />Africa
+        <input type="radio" name="q1" value="false" />Antarctica
+      </div>
+      <br />
+
+      <div class="questions">
+        <p>What river runs through Baghdad</p>
+        <input type="radio" name="q2" value="false" />Jordan
+        <input type="radio" name="q2" value="false" />Karun
+        <input type="radio" name="q2" value="true" />Tigris
+        <input type="radio" name="q2" value="false" />Euphrates
+      </div>
+      <br />
+
+      <div class="questions">
+        <p>What country has the most natural lakes?</p>
+        <input type="radio" name="q3" value="false" />Australia
+        <input type="radio" name="q3" value="false" />India
+        <input type="radio" name="q3" value="false" />United States
+        <input type="radio" name="q3" value="true" />Canada
+      </div>
+      <br />
+
+      <div class="questions">
+        <p>What is the largest country in South America?</p>
+        <input type="radio" name="q4" value="false" />Peru
+        <input type="radio" name="q4" value="true" />Brazil
+        <input type="radio" name="q4" value="false" />Columbia
+        <input type="radio" name="q4" value="false" />Argentina
+      </div>
+      <br />
+
+      <div class="questions">
+        <p>What city is the capital of Australia?</p>
+        <input type="radio" name="q5" value="true" />Canberra
+        <input type="radio" name="q5" value="false" />Sydney
+        <input type="radio" name="q5" value="false" />Perth
+        <input type="radio" name="q5" value="false" />Melbourne
+      </div>
+
+      <br />
+      <button id="submit">Submit</button>
+    </div>
+    <div id="score">
+      <h1>Trivia game</h1>
+      <p id="correct">Correct Answers:</p>
+      <p id="incorrect">Incorrect Answers:</p>
+      <p id="timesUp">Unanswered:</p>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+</html>
