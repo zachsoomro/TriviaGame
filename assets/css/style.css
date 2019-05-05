@@ -1,3 +1,12 @@
+body {
+  background: beige;
+}
+img {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
 #main,
 #intro,
 #score {
@@ -19,13 +28,4 @@ h1 {
 
 p {
   font-weight: bold;
-}
-body {
-  background: beige;
-}
-img {
-  height: auto;
-  width: auto;
-  max-width: 200px;
-  max-height: 200px;
 }
